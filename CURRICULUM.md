@@ -1,8 +1,7 @@
 👦 Vinicius Guerato, 24y  
 🌎 Santa Barbara D'Oeste, SP - Brazil.  
-📞 [+55 19 99306 1800](https://api.whatsapp.com/send?phone=5519993061800) | vguerato@gmail.com | [Github](https://github.com/vguerato/about-me) | [Linkedin](https://www.linkedin.com/in/vinicius-guerato/)
-
-Developer from 2015y, PHP and Ubuntu enthusiastic with a good knowledge expericience in development of solutions for Supply chain and Delivery/Shippiment.
+📞 [+55 19 99306 1800](https://api.whatsapp.com/send?phone=5519993061800) | vguerato@gmail.com | [Github](https://github.com/vguerato/about-me) | [Linkedin](https://www.linkedin.com/in/vinicius-guerato/)  
+👋 Developer from 2015y, PHP and Ubuntu enthusiastic with a good knowledge experience in development of solutions for Supply chain and Delivery/Shipment.
 
 ## Stacks
 
