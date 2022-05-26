@@ -1,3 +1,7 @@
+# Getting Started
+
+# Introductions
+
 - 👋 Hi, I’m @vguerato(Vinicius Guerato)
 - 🌎 Currently in Santa Barbara D'Oeste, SP - Brazil.  
 - 👀 I’m interested in PHP | Laravel | Flutter development 
@@ -10,11 +14,9 @@ vguerato/vguerato is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 
-Developer from 2015y, PHP and Ubuntu enthusiastic with a good knowledge expericience in development of solutions for Supply chain and Delivery/Shippiment.
+- 🙋 Developer from 2015y, PHP and Ubuntu enthusiastic with a good knowledge expericience in development of solutions for Supply chain and Delivery/Shippiment.
 
-## Getting Started
-
-### ⭐ Stacks
+### ⭐ Requirements
 
 - ⭐ PHP, Laravel 
 - Flutter, Dart
