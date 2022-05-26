@@ -1,7 +1,3 @@
-# Getting Started
-
-# Introductions
-
 - 👋 Hi, I’m @vguerato(Vinicius Guerato)
 - 🌎 Currently in Santa Barbara D'Oeste, SP - Brazil.  
 - 👀 I’m interested in PHP | Laravel | Flutter development 
