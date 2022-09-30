@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @vguerato(Vinicius Guerato)
-- 🌎 Currently in Santa Barbara D'Oeste, SP - Brazil.  
-- 👀 I’m interested in PHP | Laravel | Flutter development 
-- 🌱 I’m currently learning Go, InfluxDB and RocksDB  
-- 💞️ I’m looking to collaborate on private companies
+- 🌎 Santa Barbara Do Oeste, SP - Brazil  
+- 👀 Back-end developer 
+- 🌱 PHP, Laravel, VueJS, Go, InfluxDB and RocksDB  
 - 📫 How to reach me [+55 19 99306 1800](https://api.whatsapp.com/send?phone=5519993061800) | vguerato@gmail.com | [Linkedin](https://www.linkedin.com/in/vinicius-guerato/)
 - 🙋 Developer from 2015y, PHP and Ubuntu enthusiastic with a good knowledge experience in development of solutions for Supply chain and Delivery/Shipment.
 
