@@ -16,10 +16,13 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 section:first-of-type {
-  color: white;
-  background-color: #180922;
-  border: 1px solid rgba(0, 0, 0, .05);
+  background-color: #1809220e;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .about {
@@ -39,7 +42,7 @@ section:first-of-type {
 
 .social-media a {
   margin-right: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
 }
 
 .period {

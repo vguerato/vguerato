@@ -10,35 +10,30 @@ $skills = [
     'technologies' => [
         ['PHP', 'Avançado', '7y'],
         ['Laravel', 'Avançado', '2y'],
-        ['Python', 'Básico', '1y'],
-        ['Java', 'Intermediário', '2y'],
-        ['Android', 'Básico', '1y'],
-        ['Javascript', 'Avançado', '5y'],
         ['Vue JS', 'Avançado', '1y'],
         ['Quasar', 'Avançado', '1y'],
-        ['Flutter', 'Intermediário', '1y'],
         ['Bash', 'Intemediário', '1y'],
         ['Redis', 'Avançado', '2y'],
         ['MySQL', 'Avançado', '6y'],
         ['MariaDB', 'Avançado', '3y'],
         ['Postgres', 'Intermediário', '1y'],
+        ['Elastic Search', 'Intermediário', '1y'],
     ],
     'tools' => [
         ['Linux', 'Avançado', '5y'],
         ['Git', 'Avançado', '3y'],
         ['Docker', 'Avançado', '1y'],
-        ['RabbitMQ', 'Intermediário', '1y'],
-        ['Google Cloud', 'Intermediário', '2y'],
-        ['Canonical MAAS', 'Intermediário', '1y'],
+        ['GCP', 'Intermediário', '2y']
     ],
     'logical' => [
-        ['Test Unit'],
-        ['Clean Code'],
-        ['Solid'],
+        ['API Rest'],
+        ['Solid/Clean'],
         ['PSR'],
+        ['Refactoring and Analysis'],
         ['Design Patterns'],
         ['Software Architeture'],
         ['Microservices'],
+        ['Queues']
     ],/*
     'Hab' => [
         ['Autodidata'],
@@ -66,36 +61,36 @@ $experiences = [[
     'title' => 'Desenvolvedor Web',
     'company' => 'Hybriun Systems',
     'activities' => 'Prototipagem e desenvolvimento de websites.',
-    'period' => ['01/2016', '01/2017'],
-    'stacks' => ['PHP', 'Javascript', 'Java SE']
+    'period' => ['01/2016', '12/2016'],
+    'stacks' => ['HTML', 'PHP', 'Java']
 ], [
     'logo' => 'https://media-exp1.licdn.com/dms/image/C4E0BAQG-TUD7y0veYw/company-logo_100_100/0/1649968620578?e=1674691200&v=beta&t=1ALh6S3kf01tmuS8gNODTKdjeOjAVTDxjtBytclraUQ',
     'title' => 'Analista de Sistemas',
     'company' => 'Byteweb Telecom',
-    'activities' => 'Desenvolvimento de aplicações internas web e mobile. Extração e processamento de dados/relatórios para BI. Suporte ativo para soluções tercerizadas.',
+    'activities' => 'Desenvolvimento de aplicações web e mobile(Android). Extração de dados. Gerenciamento de cloud web. Suporte interno.',
     'period' => ['04/2017', '11/2017'],
-    'stacks' => ['PHP', 'Javascript', 'Android', 'Postgres']
+    'stacks' => ['PHP', 'Android', 'PostgreSQL', 'VMWare']
 ], [
     'logo' => 'https://media-exp1.licdn.com/dms/image/C4D0BAQF4XUSH2k9QGQ/company-logo_100_100/0/1609875979406?e=1674691200&v=beta&t=gRxf83IRtT2uENRiApq7yZr3jE1i-OcP1l2PSvyRKbA',
     'title' => 'Web Designer',
     'company' => 'Humann Inteligência Digital',
-    'activities' => 'Desenvolvimento de websites e mídias visuais.',
-    'period' => ['11/2017', '11/2018'],
-    'stacks' => ['PHP', 'Javascript', 'CodeIgniter', 'WordPress', 'MySQL']
+    'activities' => 'Desenvolvimento e manutenção de websites e campanhas comerciais.',
+    'period' => ['12/2017', '11/2018'],
+    'stacks' => ['PHP', 'Javascript', 'WordPress', 'MariaDB']
 ], [
     'logo' => 'https://media-exp1.licdn.com/dms/image/C4D0BAQF5uWxCjw1oBQ/company-logo_100_100/0/1609158914522?e=1674691200&v=beta&t=X47gG0tNKHmTyLZ3qYb5hRIVlwiu4Yz7U1zmvnz9ARE',
     'title' => 'Desenvolvedor Web',
     'company' => 'Tamtex Tecnologias de Proteção',
-    'activities' => 'Desenvolvimento e manutenção de módulos para ERP proprietário. Processamento de dados financeiros.',
-    'period' => ['03/2020', '11/2020'],
-    'stacks' => ['PHP', 'Laravel', 'Javascript', 'Canonical MAAS', 'MariaDB']
+    'activities' => 'Manutenção e desenvolvimento de funcionalidades de ERP interno.',
+    'period' => ['05/2020', '11/2020'],
+    'stacks' => ['Git', 'PHP', 'Laravel', 'VueJS', 'Quasar', 'MariaDB']
 ], [
     'logo' => 'https://media-exp1.licdn.com/dms/image/C4E0BAQGBEg3xldY9Yg/company-logo_100_100/0/1607612691304?e=1674691200&v=beta&t=LaKmTW-5CJXnjxe-ztsAbQljyOWm0kVkXFrtNRsl960',
     'title' => 'Desenvolvedor Web',
     'company' => 'VALG Digital',
-    'activities' => 'Arquitetura e desenvolvimento de APIs, API Gateways e serviços de processamento de dados de alta complexidade. Processamento de dados. Revisão, refatoração e manutenção em códigos legados ou obsoletos em relação a boas práticas.',
+    'activities' => 'Arquitetura e desenvolvimento de microserviços e APIs para gateways de pagamento e sistemas de gestão de frotas.',
     'period' => ['11/2020', 'Atualmente'],
-    'stacks' => ['PHP', 'Laravel', 'Javascript', 'Zend', 'MariaDB', 'MySQL', 'Redis', 'Memcached', 'Docker', 'GCP']
+    'stacks' => ['PHP', 'Laravel', 'Javascript', 'Zend', 'MariaDB', 'MySQL', 'Redis', 'VueJS', 'Quasar', 'Docker', 'GCP']
 ]];
 
 ?>
@@ -118,15 +113,15 @@ $experiences = [[
     <section class="py-5 px-5 mt-2 mb-4 rounded">
         <div class="row">
             <div class="col-auto">
-                <img src="vguerato.png" alt="Vinicius Guerato" width="100px" height="100px" class="rounded">
+                <img src="vguerato.png" alt="Vinicius Guerato" width="140px" height="140px" class="rounded">
             </div>
 
             <div class="col">
                 <h1>Vinicius Guerato</h1>
 
                 <div class="about mb-2">
-                    <span>Desenvolvedor PHP Sênior</span>
-                    <span>24 anos</span>
+                    <span>Senior Software Developer</span>
+                    <span>25 anos</span>
                     <span>Santa Barbara D'Oeste - SP, Brasil</span>
                 </div>
 
@@ -155,44 +150,36 @@ $experiences = [[
     </section>
 
     <p class="px-5 py-3">
-        Desenvolvedor desde 2015, iniciei minha vivência na área de desenvolvimento
-        por volta dos 16 anos de idade, criando e modificando servidores de jogos virtuais.
-        Hoje trabalho com muito respeito, arquitetando e desenvolvendo serviços e aplicações robustas, sofisticadas,
-        buscando sempre a simplificação de processos, com foco em entregar desempenho. Também tenho um apreço grande pela área de UI/UX, procuro sempre
-        estar em contato com questões relativas a design. Elaborar, prototipar e efetivar a usuabilidade
-        de layouts e serviços.
+        Desenvolvedor desde 2015, iniciei meus estudos e vivência
+        na área devido ao hobby com jogos digitais, e o interesse
+        em saber como funcionavam e como poderiam ser melhorados.
+        Atualmente trabalho como desenvolvedor de software sênior
+        atuando principalmente na stack PHP/Laravel, realizando
+        também, arquitetura de microsserviços e APIs, com amplo conhecimento
+        em soluções financeiras(Gateways) e logísticas(Gestão de frota veícular).
     </p>
 
-    <section id="skills" class="px-5 py-3">
+    <section id="skills" class="px-5 py-2">
         <h2>Habilidades</h2>
         <p>Amplo conhecimento em arquitetura e desenvolvimento de APIs, API Gateways, Microserviços e serviços de processamento de dados de alto desempenho.</p>
         <div class="sks mt-3">
             <?php foreach ($skills as $k => $v) : ?>
-                <h3 class="my-4"><?= $skillsCategories[$k] ?></h3>
                 <?php foreach ($v as $s) : ?>
                     <div class="sk">
                         <span class="sk-name"><?= $s[0] ?></span>
-
-                        <?php if (isset($s[1])) : ?>
-                            <span class="sk-stage"><?= $s[1] ?></span>
-                        <?php endif; ?>
-
-                        <?php if (isset($s[2])) : ?>
-                            <span class="sk-age"><?= $s[2] ?></span>
-                        <?php endif; ?>
                     </div>
                 <?php endforeach; ?>
             <?php endforeach; ?>
         </div>
     </section>
 
-    <section class="dge px-5 py-3">
+    <section class="dge px-5 py-2">
         <h2 class="mb-4">Formação</h2>
         <?php foreach ($degrees as $dg) : ?>
             <div class="dg row mb-3">
-                <div class="col-auto">
+                <!--<div class="col-auto">
                     <img src="<?= $dg['logo'] ?>" width="50px" height="50px" title="<?= $dg['emissor'] ?>" class="rounded">
-                </div>
+                </div>-->
                 <div class="col">
                     <p class="dg-name"><?= $dg['title'] ?></p>
                     <p class="dg-emissor"><?= $dg['emissor'] ?></p>
@@ -206,13 +193,13 @@ $experiences = [[
         <?php endforeach; ?>
     </section>
 
-    <section class="jbs px-5 py-3">
+    <section class="jbs px-5 py-2">
         <h2 class="mb-4">Experiências</h2>
         <?php foreach ($experiences as $exp) : ?>
             <div class="job-card mb-4 row">
-                <div class="col-auto">
+                <!--<div class="col-auto">
                     <img src="<?= $exp['logo'] ?>" width="50px" height="50px" title="<?= $exp['company'] ?>" class="rounded">
-                </div>
+                </div>-->
                 <div class="col">
                     <p>
                         <span class="jb-name"><?= $exp['title'] ?></span>
@@ -224,6 +211,13 @@ $experiences = [[
                         <i class="fa-solid fa-arrows-left-right"></i>
                         <span class="period-fi"><?= $exp['period'][1] ?></span>
                     </p>
+                    <div class="sks mt-3">
+            <?php foreach ($exp['stacks'] as $v) : ?>
+                <div class="sk">
+                        <span class="sk-name"><?= $v ?></span>
+                    </div>
+            <?php endforeach; ?>
+        </div>
                 </div>
             </div>
         <?php endforeach; ?>
